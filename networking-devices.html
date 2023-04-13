@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Networking Devices</title>
+  <style media="screen">
+    body {
+      background-image: url("images/devices-bg2.jpg");
+      width: 100%;
+      height: 100vh;
+      background-repeat: repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #1d3557;
+      border-radius: 15px;
+    }
+
+    li {
+      float: right;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+      border-radius: 10px;
+    }
+
+    .active {
+      background-color: #04AA6D;
+    }
+
+    .networking-devices {
+      text-align: center;
+    }
+
+    div {
+      width: 500px;
+      text-align: center;
+      display: inline-block;
+      foat: left;
+    }
+
+    img {
+      border-radius: 10px;
+    }
+    .device {
+      margin: 50px 50px 50px 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li style="float:left"><a class="active" href="index.html">Introduction</a></li>
+    <li><a href="networking-topologies.html">Networking Topologies</a></li>
+    <li><a href="networking-devices.html">Networking Devices</a></li>
+    <li><a href="what-is-networking.html">What is Networking</a></li>
+  </ul>
+  <br>
+  <h1 class="networking-devices">Networking Devices</h1>
+  <p class="networking-devices">Networking devices are physical or virtual equipment used to interconnect nodes or devices in a network and facilitate the communication and sharing of information or resources. </p>
+
+  <div class="device" style="margin: 0px 100px 100px 200px;">
+    <h3>Network Hubs</h3>
+    <p2>A network hub is a node that broadcasts data to every computer or Ethernet-based device connected to it.</p2>
+    <p><img src="images/network-hub.png" width="500" height="260" alt=""></p>
+  </div>
+  <div class="device">
+    <h3>Network Switches</h3>
+    <p>Network Switches enables fast in-network communication by routing data packets between devices in a smart way, creating a tunnel between source and destination that can't be interrupted by other network traffic.</p3>
+      <img src="images/network-switch.jpeg" width="500" height="338" alt="" />
+  </div>
+  <div class="device" style="margin: 0px 100px 100px 200px;">
+    <h3>Network Router</h3>
+    <p4>A devices that connectes two or more networks or subnetwork.</p4>
+    <p><img src="images/network-router.png" width="375" height="250" alt="" /></p>
+  </div>
+  <div class="device">
+    <h3>Network bridges</h3>
+    <p5>Bridges connects two or more different LANs that has a similar protocol and provides communication between the devices (nodes) in them.</p5>
+    <p><img src="images/network-bridge.jpeg" width="417" height="259" alt="" /></p>
+  </div>
+
+</body>
+
+</html>

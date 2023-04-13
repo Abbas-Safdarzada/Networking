@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>What is Networking</title>
+    <style media="screen">
+      body {
+        background-image: url('images/topology-bg.jpg');
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1d3557;
+    border-radius: 15px;
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #111;
+    border-radius: 10px;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+  div {
+    width: 350px;
+    height: auto;
+    margin: 20px 29px 10px 1px;
+    float: left;
+    text-align: center;
+  }
+  p {
+    font-size: 20px;
+    color: #ccd5ae;
+  }
+  h2, h1 {
+    color: #e9edc9;
+  }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li style="float:left"><a class="active" href="index.html">Introduction</a></li>
+      <li><a href="networking-topologies.html">Networking Topologies</a></li>
+      <li><a href="networking-devices.html">Networking Devices</a></li>
+      <li><a href="what-is-networking.html">What is Networking</a></li>
+    </ul>
+
+    <h1 style="text-align: center;">Networking Topolgies</h1>
+    <p style="font-size: 25px; text-align: center;">These are four types of network topologies:</p>
+    <div class="network" style="margin-left: 15px;">
+      <h2>Ring Topology</h2>
+      <p>In a ring topology, all devices are connected in a circular manner, where each device is connected to two other devices, forming a closed loop. Data travels in one direction through the ring, and each device in the network receives the data until it reaches its intended destination. Examples of networks that use ring topology are Token Ring and SONET.</p>
+    </div>
+    <div class="topology">
+      <h2>Star Topology</h2>
+      <p>In a star topology, all devices are connected to a central hub or switch. All data transmissions pass through the hub or switch, which sends the data to the intended destination device. If the hub or switch fails, the entire network fails. Examples of networks that use star topology are Ethernet and Wi-Fi.</p>
+    </div>
+    <div class="examples">
+      <h2>Bus Topology</h2>
+      <p>In a bus topology, all devices are connected to a single cable called a bus. Data travels along the bus and each device on the network reads the data and sends it to the next device until it reaches its intended destination. If the bus fails, the entire network fails. Examples of networks that use bus topology are Ethernet and LocalTalk.</p>
+    </div>
+    <div class="importance">
+      <h2>Mesh Topology</h2>
+      <p>In a mesh topology, each device is connected to every other device on the network. This creates multiple paths for data to travel, which makes the network more reliable and able to handle more traffic. Examples of networks that use mesh topology are military and emergency communication networks, as well as some large-scale enterprise networks.</p>
+    </div>
+    <br>
+
+  </body>
+  </html>
